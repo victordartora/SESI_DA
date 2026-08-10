@@ -113,3 +113,84 @@ header p {
     border-radius: 70px;
     margin: 20px;
 }
+.grupo-dicas{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.dicas-le{
+    width: 50%;
+}
+
+.dicas-le h1{
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.dicas-le p{
+    font-size: 28px;
+    color: #5c5c5c;
+}
+
+.dicas-le span{
+    font-weight: bold;
+}
+
+.dicas-ld img{
+    width: 684px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grupo-assinar{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo-assinar input{
+    height: 50px;
+    width: 500px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+
+.grupo-assinar button{
+    height: 51px;
+    width: 200px;
+    background-color: #EBC154;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-itens ul{
+    display: flex;
+}
+
+.menu-itens li{
+    margin-left: 20px;
+    list-style-type: none;
+}
