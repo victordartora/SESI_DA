@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reserva de Salas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1> Reserva de Salas</h1>
+
+        <input
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome"
+        >
+
+        <select id="sala">
+            <option>Sala 1</option>
+            <option>Sala 2</option>
+            <option>Sala 3</option>
+        </select>
+
+        <input
+            type="date"
+            id="data"
+        >
+
+        <input
+            type="time"
+            id="hora"
+        >
+
+        <button onclick="reservar()">
+            Reservar Sala
+        </button>
+
+        <h2>Reservas</h2>
+
+        <div id="lista"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
